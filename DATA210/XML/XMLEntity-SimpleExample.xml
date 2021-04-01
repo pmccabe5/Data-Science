@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE myDoc [
+<!ENTITY author "Joe">
+]>
+
+<myDoc>
+	<date>7-5-2016</date>
+	<otherInfo>Author: &author;</otherInfo>
+</myDoc>

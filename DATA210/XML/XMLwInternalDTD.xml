@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE BookList [
+  <!ELEMENT BookList (Book*)>
+  <!ELEMENT Book     (Author*,Title*,Year*)>
+  <!ELEMENT Author   (#PCDATA)>
+  <!ELEMENT Title    (#PCDATA)>
+  <!ELEMENT Year     (#PCDATA)>
+]>
+
+<BookList>
+  <Book>
+    <Author>Coetzee</Author>
+    <Title>Disgrace</Title>
+    <Year>1999</Year>
+  </Book>
+</BookList>

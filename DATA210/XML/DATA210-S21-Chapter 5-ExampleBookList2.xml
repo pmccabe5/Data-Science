@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BookList>
+  <Book>
+    <Author>Coetzee</Author>
+    <Title>Disgrace</Title>
+    <Year>1999</Year>
+  </Book>
+  <Book>
+    <Author>Coetzee</Author>
+    <Title>Youth</Title>
+  </Book>
+</BookList>

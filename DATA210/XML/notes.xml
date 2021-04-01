@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 
+Class: DATA 210
+Notes for XML
+ -->
+
+<!-- Internal DTD -->
+
+<!-- <!DOCTYPE BookList [
+
+    <!ELEMENT BookList (Book*)>
+    <!ELEMENT Book (Author*, Title*, Year*)>
+    <!ELEMENT Author (#PCDATA)>
+    <!ELEMENT Title (#PCDATA)>
+    <!ELEMENT Year (#PCDATA)>
+
+]> -->
+
+<!-- External DTD -->
+
+<!-- <!DOCTYPE BookList SYSTEM "notes.dtd"> -->
+
+<BookList>
+  <Book>
+    <Author>Coetzee</Author>
+    <Title>Disgrace</Title>
+    <Year>1999</Year>
+  </Book>
+  <Book>
+    <Author>Coetzee</Author>
+    <Title>Youth</Title>
+  </Book>
+
+  <!-- <Book>
+    <title>My First XML</title>
+      <prod id="33-657" media="paper"></prod>
+
+      <chapter>Intro to XML
+        <para>What is HTML</para>
+        <para>What is XML</para>
+      </chapter>
+
+      <chapter> XML Syntax
+        <para>Elements must have a closing tag</para>
+        <para>Elements must be properly nested</para>
+      </chapter>
+  </Book> -->
+
+</BookList>

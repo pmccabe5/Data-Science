@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE BookList [
+
+    <!ELEMENT BookList (Book*)>
+    <!ELEMENT Book (Author*, Title*, Year*)>
+    <!ELEMENT Author (#PCDATA)>
+    <!ELEMENT Title (#PCDATA)>
+    <!ELEMENT Year (#PCDATA)>
+
+]>
